@@ -29,7 +29,7 @@ class PalindromeCheck
 
         while (left < right)
         {
-            if (char.ToLower(str[left]) != char.ToLower(str[right]))
+            if (char.ToLowerInvariant(str[left]) != char.ToLowerInvariant(str[right]))
             {
                 return false;
             }
