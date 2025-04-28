@@ -5,7 +5,7 @@ class PalindromeCheck
     static void Main()
     {
         Console.WriteLine("Enter a string to check if it is a palindrome:");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine()?.Trim();
 
         if (IsPalindrome(input))
         {
